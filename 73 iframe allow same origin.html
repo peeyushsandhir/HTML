@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+     <meta charset="UTF-8">
+     <meta http-equiv="X-UA-Compatible" content="IE=edge">
+     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+     <title>iframe sandbox allow same origin</title>
+</head>
+<body>
+     a web page can have access to second web page only if <br>
+     both have same origin.
+     <br>
+     same origin: URI (Uniform Resource Identifier) & Port Number & HostName
+     <br>
+     
+     <iframe src="73_example.html" sandbox="allow-same-origin" frameborder="1"></iframe>
+
+     <!-- if sandbox is mentioned & kept empty hyperlink won't work; however,
+     if some value is mentioned the link works accordingly values of sandbox mentioned in 71 iframe sandbox  -->
+
+     <br>
+     <img src="images/73 iframe allow same origin.jpg">
+
+</body>
+</html>
